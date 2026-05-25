@@ -8,7 +8,6 @@ data_angka_list = [1,2,3,4,5]
 # index : 0 = 1, 1 = 2
 print(data_angka_list[4])
 
-
 print(data_angka_list)
 # print(type(data_angka_list))
 
@@ -24,11 +23,11 @@ print(data_angka_list)
 # data_angka_list.remove(4)
 # print(data_angka_list)
 
-# kumpulan data string,
+# # kumpulan data string,
 # data_string = ["Taufik", "Ilham", "Dimas"]
 # print(data_string)
 
-# kumpulan data boolean
+# # kumpulan data boolean
 # data_boolean = [True, False, False, False]
 # print(data_boolean)
 
@@ -43,3 +42,15 @@ print(data_angka_list)
 # # dilakukan konversi dari range ke list
 # data_range = list(data_range)
 # print(data_range)
+
+# # membuat list dengan for loop, (list comprehension)
+# data_list_for = [i for i in range(0,10)]
+# print(data_list_for)
+
+# # membuat list dengan for loop (dikuadratkan)
+# data_list_for_eksponen = [i**2 for i in range(0,10)]
+# print(data_list_for_eksponen)
+
+# # membuat list dengan if/pengkondisian (bilangan genap)
+# data_list_if = [i for i in range(0, 10) if i % 2 != 0]
+# print(data_list_if)

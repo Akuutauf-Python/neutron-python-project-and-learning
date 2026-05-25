@@ -1,3 +1,7 @@
+# cara untuk mengkompile file program python ke terminal
+python -m compileall Main.py
+
+
 Sebuah sekolah ingin mengurangi antrean di kantin.
 Siswa diminta menganalisis penyebab masalah tersebut.
 Langkah analisis yang tepat adalah…
