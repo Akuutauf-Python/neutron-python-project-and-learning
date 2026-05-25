@@ -1,0 +1,2 @@
+# cara untuk mengkompile file program python ke terminal
+python -m compileall Main.py

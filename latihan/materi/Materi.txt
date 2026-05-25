@@ -1,0 +1,12 @@
+Daftar Materi :
+1. Variabel
+2. Tipe Data
+3. Operasi Aritmatika
+4. Increment/Decrement
+5. Konversi Tipe Data
+6. Input
+7. List
+8. Index List
+9. Operator Perbandingan
+10. Pengkondisian
+11. 
