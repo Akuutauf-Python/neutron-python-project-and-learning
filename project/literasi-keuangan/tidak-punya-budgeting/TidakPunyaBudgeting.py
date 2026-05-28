@@ -30,6 +30,7 @@ transaksi = [
 
 # fungsi untuk konversi ke format nominal rupiah
 def format_rupiah(angka):
+    # mengembalikan nominal / angka ke dalam bentuk satuan rupiah
     return f"Rp{angka:,.0f}".replace(",", ".")
 
 # fungsi support untuk menghitung total pemasukan
@@ -264,13 +265,13 @@ def riwayat_transaksi():
         print("Belum ada transaksi.")
         return
     
-    # jika tidak kosong untuk riwayat transaksi
+    # jika tidak kosong untuk item transaksi
     print("Nama - Tipe - Jumlah - Kategori")
     print("-------------------------------")
     
     # melakukan perulangan untuk menampilkan seluruh transaksi
-    for i, riwayat in enumerate(transaksi, start=1):
-        print(f"{i}. {riwayat['nama']} - {riwayat['tipe']} - {format_rupiah(riwayat['jumlah'])} - {riwayat['kategori']}")
+    for i, item in enumerate(transaksi, start=1):
+        print(f"{i}. {item['nama']} - {item['tipe']} - {format_rupiah(item['jumlah'])} - {item['kategori']}")
 
 # awal program utama
 print("===== SELAMAT DATANG DI APLIKASI LITERASI KEUANGAN =====")

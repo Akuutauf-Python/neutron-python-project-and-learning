@@ -6,7 +6,7 @@ r = 25
 data_angka_list = [1,2,3,4,5]
 
 # index : 0 = 1, 1 = 2
-print(data_angka_list[4])
+print(data_angka_list[-1])
 
 print(data_angka_list)
 # print(type(data_angka_list))
